@@ -1,0 +1,36 @@
+@import url("style.css");
+
+body > article:nth-child(3){
+     background-image: url("../imgs/relax.jpg");
+}
+
+body > main > section.card{
+    display: flex; 
+}
+
+body > main > section.card > img{
+    margin-right: 1.25rem;
+    max-width: 100px;
+}
+
+body{
+    font-size: 15pt;
+}
+
+ u{
+ margin:0;
+ padding:0;
+ box-sizing: border-box;
+}
+button{
+    border:none;
+    background: rgb(150,150,240);
+    color: rgb(204, 6, 6);
+    width:60px;
+    padding:8px;
+    font-weight:bold;
+}
+.bts{
+    display:flex;
+    justify-content: center;
+}

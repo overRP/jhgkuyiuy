@@ -1,0 +1,21 @@
+@import url("style.css");
+
+body> article:nth-child(3){
+    background-image: url("../imgs/pedidos.jpg");
+}
+
+body > main > section ul{
+    list-style: url("../imgs/esfera_do_dragao.jpg") inside;
+}
+
+
+body > main > section.card img{
+    width: 5rem;
+    height: 3.2rem;
+    margin-right: 1rem;
+
+}
+
+section.card{
+    display: flex;
+}
